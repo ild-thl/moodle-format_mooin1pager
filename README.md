@@ -11,6 +11,8 @@ We need to install the **course format**
 
     cd /path/to/moodle/course/format/
     
+    git clone -b mooin1pager_405 https://github.com/ild-thl/moodle-format_mooin1pager.git mooin1pager
+    
 and the **MOOIN 4.x Design**
 
     cd /path/to/moodle/theme/
