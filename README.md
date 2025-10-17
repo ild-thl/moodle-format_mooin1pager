@@ -41,5 +41,5 @@ First check if changing Designs in courses is enabled. Go to **Site Administrati
 Then create a new course or navigate to an existing course. In the course settings go to **Course format** and choose **mooin1pager**. Then go to **Appearance > Force theme** and choose **Mooin 4.x**.
 
 ## Features 
-Features: see https://github.com/muschthom/mooin1pager/wiki
+Features: see https://github.com/ild-thl/moodle-format_mooin1pager/wiki
 
