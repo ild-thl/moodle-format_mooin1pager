@@ -23,20 +23,20 @@
  */
 
  //from topics format
-$string['currentsection'] = 'Current section';
-$string['hidefromothers'] = 'Hide';
-$string['legacysectionname'] = 'Topic';
-$string['newsection'] = 'New section';
-$string['page-course-view-mooin1pager'] = 'Any course main page in custom sections format';
-$string['page-course-view-mooin1pager-x'] = 'Any course page in custom sections format';
+$string['currentsection'] = 'Aktueller Abschnitt';
+$string['hidefromothers'] = 'Verbergen';
+$string['legacysectionname'] = 'Thema';
+$string['newsection'] = 'Neuer Abschnitt';
+$string['page-course-view-mooin1pager'] = 'Beliebige Kurshauptseite im benutzerdefinierten Abschnittsformat';
+$string['page-course-view-mooin1pager-x'] = 'Beliebige Kursseite im benutzerdefinierten Abschnittsformat';
 $string['pluginname'] = 'Mooin 1 Pager';
-$string['plugin_description'] = 'The course is divided into customisable sections.';
-$string['privacy:metadata'] = 'The Custom sections format plugin does not store any personal data.';
-$string['indentation'] = 'Allow indentation on course page';
-$string['indentation_help'] = 'Allow teachers, and other users with the manage activities capability, to indent items on the course page.';
-$string['section_highlight_feedback'] = 'Section {$a->name} highlighted.';
-$string['section_unhighlight_feedback'] = 'Highlighting removed from section {$a->name}.';
-$string['section0name'] = 'Section 0';
+$string['plugin_description'] = 'Das mooin1pager Kursformat ist eine Adaption des mooin4 Kursformats mit Darstellung aller Kurselemente auf einer Seite, vergleichend dem Themenformat. Die verschiedenen mooin4-spezifischen Bereiche wie die Newsforum-Preview, Zertifikate- und Badges-Kachel und weitere finden sich an bewährter Stelle, das mooin4-Design wird aufgegriffen und ermöglicht so visuell dazu passende andere Kurskonzepte.';
+$string['privacy:metadata'] = 'Das Plugin für benutzerdefinierte Abschnittsformate speichert keine personenbezogenen Daten.';
+$string['indentation'] = 'Einzug auf der Kursseite erlauben';
+$string['indentation_help'] = 'Erlaubt es Lehrpersonen und anderen Nutzenden mit der Berechtigung zur Verwaltung von Aktivitäten, Elemente auf der Kursseite einzurücken.';
+$string['section_highlight_feedback'] = 'Abschnitt {$a->name} hervorgehoben.';
+$string['section_unhighlight_feedback'] = 'Hervorhebung von Abschnitt {$a->name} entfernt.';
+$string['section0name'] = 'Abschnitt 0';
 $string['sectionname'] = 'Abschnitt';
 $string['showfromothers'] = 'Abschnitt anzeigen';
 
