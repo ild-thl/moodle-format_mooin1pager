@@ -26,6 +26,7 @@ use course_modinfo;
 use moodle_exception;
 use context_module;
 use context_course;
+use format_mooin1pager\local\utils as utils;
 
 /**
  * Contains the core course state actions specific to mooin1pager format.
@@ -111,6 +112,21 @@ class stateactions extends stateactions_base {
             $section = $modinfo->get_section_info_by_id($sectionid, MUST_EXIST);
             if ($section->section != $previousmarker) {
                 $updates->add_section_put($section->id);
+            }
+        }
+    }
+
+
+    public function readAllForumDiscussions(
+        stateupdates $updates,
+        stdClass $course,
+        array $ids = [],
+    ): void {
+        global $DB, $USER;
+        $forumid = $ids[0];
+        if ($discussions = $DB->get_records('forum_discussions', array('forum' => $forumid))) {
+            foreach ($discussions as $discussion) {
+                utils::set_discussion_viewed($USER->id, $forumid, $discussion->id);
             }
         }
     }
