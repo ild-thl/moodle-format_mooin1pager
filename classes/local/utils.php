@@ -263,7 +263,8 @@ class utils {
     }
 
     public static function get_user_coordinates_from_pref($userid) {
-        $value = get_user_preferences('format_mooin1pager_user_coordinates', '', $userid);
+        //$value = get_user_preferences('format_mooin1pager_user_coordinates', '', $userid);
+        $value = get_user_preferences('format_mooin4_user_coordinates', '', $userid);   //use mooin4 user coordinates
         if ($value != '') {
             $valuearray = explode('|', $value);
             if (count($valuearray) == 2) {

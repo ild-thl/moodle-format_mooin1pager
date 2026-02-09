@@ -33,4 +33,27 @@ if ($ADMIN->fulltree) {
         new lang_string('indentation_help', 'format_mooin1pager').'<br />'.$link,
         1
     ));
+
+
+     // Configure data for getting user coordinates.
+    // Add a headline "Include in Navigation"
+    $settings->add(new admin_setting_heading(
+        'format_mooin1pager/geonamessettings',
+        get_string('geonamessettings', 'format_mooin1pager'),
+        ''
+    ));
+
+    $settings->add(new admin_setting_configtext(
+        'format_mooin1pager/geonamesapi_url',
+        get_string('configlabel_geonamesapi_url', 'format_mooin1pager'),
+        get_string('configdesc_geonamesapi_url', 'format_mooin1pager'), 
+        'http://api.geonames.org'
+    ));
+    $settings->add(new admin_setting_configtext(
+        'format_mooin1pager/geonamesapi_username',
+        get_string('configlabel_geonamesapi_username', 'format_mooin1pager'),
+        get_string('configdesc_geonamesapi_username', 'format_mooin1pager'), 
+        'mooin4'
+    ));
+
 }

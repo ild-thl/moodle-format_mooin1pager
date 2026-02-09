@@ -241,3 +241,4 @@ $string['toggle_mooin1pgr_userlist_visibility_help'] = 'Wenn aktiviert, wird die
 $string['toggle_mooin1pgr_welcome_message'] = '"Willkommen"-Nachricht anzeigen';
 $string['toggle_mooin1pgr_welcome_message_help'] = 'Wenn aktiviert, wird in der Überblendung des Headerbilds "Herzlich willkommen im Kurs" angezeigt.';
 
+$string['geonamessettings'] = 'GeoNames Einstellungen';

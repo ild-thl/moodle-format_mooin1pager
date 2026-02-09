@@ -234,3 +234,5 @@ $string['toggle_mooin1pgr_userlist_visibility_help'] = 'When activated, the user
 
 $string['toggle_mooin1pgr_welcome_message'] = 'Show "Welcome"-message';
 $string['toggle_mooin1pgr_welcome_message_help'] = 'When activated, “Welcome to the course” is displayed in the overlay of the header image.';
+
+$string['geonamessettings'] = 'GeoNames Settings';
